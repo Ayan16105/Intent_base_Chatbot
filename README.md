@@ -1,6 +1,6 @@
 # Intent-Based Chatbot Using NLP
 
-![Chatbot Image](assets/chatbot-image.png)  <!-- Update with the correct path to your PNG image -->
+![Chatbot Image](CHATBOT/Images/Demo.png) 
 
 ## Project Overview
 
@@ -37,4 +37,21 @@ To run the chatbot locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ayan16105/Intent_base_Chatbot.git
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the Streamlit app:
+   ```bash
+    streamlit run app.py
+## Contributing
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+## Acknowledgments
+- **Streamlit**: For providing an easy-to-use interface for deploying the chatbot.
+- **NLP libraries**: For enabling text processing and intent recognition.
+- **Open Source Community**: For sharing resources and tools that made this project possible.
+
+
+   
    
