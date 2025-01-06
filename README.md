@@ -1,6 +1,6 @@
 # Intent-Based Chatbot Using NLP
 
-![Chatbot Image](CHATBOT/Images/Demo.png) 
+![Chatbot Image](Images/Demo.png) 
 
 ## Project Overview
 
