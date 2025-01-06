@@ -32,15 +32,18 @@ This project implements an **Intent-Based Chatbot** using **Natural Language Pro
 
 ## Installation
 
-To run the chatbot locally, follow these steps:
+To run the chatbot locally, follow these steps but before this ***Make Sure you had installed Git in your sytem to run git commands**:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ayan16105/Intent_base_Chatbot.git
-2. Install required dependencies:
+2. Change dirctory to your cloned Directory:
+   ```bash
+   cd Intent_base_Chatbot
+3. Install required dependencies:
    ```bash
    pip install -r requirements.txt
-3. Run the Streamlit app:
+4. Run the Streamlit app:
    ```bash
     streamlit run app.py
 ## Contributing
