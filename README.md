@@ -70,7 +70,7 @@ To run the chatbot locally, follow these steps but before this ***Make Sure you 
 ## Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the ![LICENSE](LICENSE.txt) file for details.
 ## Acknowledgments
 - **Streamlit**: For providing an easy-to-use interface for deploying the chatbot.
 - **NLP libraries**: For enabling text processing and intent recognition.
