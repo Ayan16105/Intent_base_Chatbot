@@ -17,7 +17,7 @@ nltk.download('wordnet')
 stopwords_set = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
-# Define the intents directly in the code
+# These intents file is also available on this repo named as intents.json
 intents = [
     {
       "tag": "greeting",
