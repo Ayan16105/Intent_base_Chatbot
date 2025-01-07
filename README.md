@@ -44,15 +44,6 @@ This project implements an **Intent-Based Chatbot** using **Natural Language Pro
 
 ## Installation
 
-To run the chatbot locally, follow these steps (ensure Git is installed in your system to run Git commands):
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ayan16105/Intent_base_Chatbot.git
-
-
-## Installation
-
 To run the chatbot locally, follow these steps but before this ***Make Sure you had installed Git in your sytem to run git commands**:
 
 1. Clone the repository:
