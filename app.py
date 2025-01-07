@@ -17,7 +17,7 @@ nltk.download('wordnet')
 stopwords_set = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
-# Define the intents directly in the code (you can expand this as needed)
+# Define the intents directly in the code
 intents = [
     {
       "tag": "greeting",
@@ -335,7 +335,7 @@ intents = [
     }
   ]
 
-# Preprocessing function for tokenizing and cleaning text
+# Preprocessing 
 def regex_tokenize(text):
     return re.findall(r'\b\w+\b', text.lower())
 
@@ -392,7 +392,7 @@ st.title("Intent-Based ChatBot")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Display chat messages
+
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
@@ -403,7 +403,7 @@ if prompt:
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})    
 
-    # Get chatbot response
+
     ans = chatbot(prompt)
     with st.chat_message("assistant"):
         st.markdown(ans)
